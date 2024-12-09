@@ -10,9 +10,7 @@ export default function Character  ()  {
     if (!visibility) {
         return null;
     }
-
- 
-
+    
     return (
         <AppCharacters setVisibility={setVisibility} />
     );
