@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import AppCharacters from './components/AppCharacrets' 
+import Character from './components/AppCharacrets' 
 import './App.css'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <>
      <div>HI</div>
      
-     <AppCharacters />
+     <Character />
     </>
   )
 }
